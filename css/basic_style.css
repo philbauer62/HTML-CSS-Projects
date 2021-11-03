@@ -19,7 +19,7 @@ h1 {
     SELECT ALL SQUARES IN THE ARRAY
 -----------------------------------------------*/
 .container .squares:nth-child(-n + 4) {
-    background-image: url("./images/Icons/icons_1.png");
+    background-image: url("../images/Icons/icons_1.png");
     color: #fff;
     float: left;
     width: 100px;
@@ -65,7 +65,7 @@ INDIVIDUALLY SELECT A SQUARE IN THE ARRAY
 /*-------------------------------------------------
      HOVER EFFECT
 --------------------------------------------------*/
-.container .squares:nth-child(-n + 4) :hover {
+.container .squares:nth-child(-n + 4):hover {
     background-image:  url("../images/Icons/icons_2.png");
 
 }
@@ -88,8 +88,8 @@ INDIVIDUALLY SELECT A SQUARE IN THE ARRAY
 /*------------------------------------------------------------
 HOVER EFFECT
 ------------------------------------------------------------*/
-.container .squares:nth-child(-n + 4) :hover {
-    background-image: url("../HTML-CSS-Projects/images/Icons/icons_2.png");
+.container .squares:nth-child(-n + 4):hover {
+    background-image: url("../images/Icons/icons_2.png");
     transform: scale(.5);
     animation-name: race;
     animation-duration: 2.5s;
@@ -97,19 +97,19 @@ HOVER EFFECT
     animation-timing-function: cubic-bezier(2.5, .2,.3,2);
 }
 
-.squares:nth-child(1) :hover {
+.squares:nth-child(1):hover {
     background: #13b4ff;
 }
 
-.squares:nth-child(2) :hover {
+.squares:nth-child(2):hover {
     background: #d861af;
 }
 
-.squares:nth-child(3) :hover {
+.squares:nth-child(3):hover {
     background: #81205f;
 }
 
-.squares:nth-child(4) :hover {
+.squares:nth-child(4):hover {
     background: #77b800;
 }
 
@@ -119,7 +119,7 @@ HOVER EFFECT
 @keyframes race {
     0%, 100% {
         transform: translateY(0px);
-        background-images: url("../HTML-CSS-Projects/images/Icons/icons_1.png");
+        background-images: url("../images/Icons/icons_2.png");
 }
     50% {
         transform: translateY(300px);

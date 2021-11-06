@@ -15,7 +15,7 @@ MENU SECTION ANIMATION
 .menu li {
     color: #000;
     background-color: rgba(255,255,255,1);
-    display: inline;
+    display: inline-block;
     margin:0% auto;
     position: relative;
     padding: 15px 4%;
